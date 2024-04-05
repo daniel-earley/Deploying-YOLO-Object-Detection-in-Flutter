@@ -12,6 +12,9 @@ class YoloClassifier {
     yoloResults = [];
   }
 
+  // This function is taken from the example code in the flutter_vision repository
+  // Source: Vladimir Hudnitsky. (2024). main.dart in flutter_vision example. flutter_vision.
+  // Retrieved 2024-04-04 from https://github.com/vladiH/flutter_vision/blob/master/example/lib/main.dart
   Future<void> loadModel() async {
     // Load your YOLO model here
     await vision.loadYoloModel(
@@ -22,6 +25,9 @@ class YoloClassifier {
         useGpu: true);
   }
 
+  // This function is adapted the example code in the flutter_vision repository
+  // Source: Vladimir Hudnitsky. (2024). main.dart in flutter_vision example. flutter_vision.
+  // Retrieved 2024-04-04 from https://github.com/vladiH/flutter_vision/blob/master/example/lib/main.dart
   Future<List<Map<String, dynamic>>> inferenceUsingYOLO(File imageFile) async {
     yoloResults.clear();
     Uint8List byte = await imageFile.readAsBytes();
