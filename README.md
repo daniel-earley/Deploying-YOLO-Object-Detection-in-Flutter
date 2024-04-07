@@ -4,7 +4,7 @@
 TODO:
 
 ## How To Run It
-TODO:
+1. Download and Install Android Studio [Tutorial:](https://developer.android.com/codelabs/basic-android-kotlin-compose-install-android-studio#0)
 
 ## Acknowledgements
 This project utilizes code from the `flutter_vision` example by Vladimir Hudnitsky, available at
