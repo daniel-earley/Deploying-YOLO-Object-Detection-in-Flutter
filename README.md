@@ -18,7 +18,7 @@ The aim of this project is to deploy a YOLOv8 model trained on Pokemon images in
 After opening the app you will be prompted to gain access to the camera, you should agree to these messages. From here you can take a picture or select a picture from your stored images. Once a picture has been taken or selected you may review the image before submitting it to the model for inference. Once submitted, the model will begin inference, once finished a message will appear on the screen with the results of the inference.
 
 ## Screenshots of the App
-![Screenshots]("images/Comp Vis Project Screenshots.png")
+![Screenshots](images/screenshot.png)
 
 ## Acknowledgements
 This project utilizes code from the `flutter_vision` example by Vladimir Hudnitsky, available at
